@@ -1,8 +1,8 @@
+gunicorn
 Flask
-Werkzeug
 Flask-Login
-Flask-SQLAlchemy
-openpyxl
-xlrd
-pandas
+Werkzeug
+mysql-connector-python
 bcrypt
+xlsxwriter
+
