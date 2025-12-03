@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+{% block content %}
+<div class="col-md-6 mx-auto mt-4">
+  <h4 class="mb-3 text-center">Import Contacts (Excel or CSV)</h4>
+  <form method="POST" enctype="multipart/form-data">
+    <div class="mb-3">
+      <label>Upload File</label>
+      <input type="file" name="file" class="form-control" accept=".csv,.xls,.xlsx" required>
+    </div>
+    <button type="submit" class="btn btn-success w-100">Import</button>
+  </form>
+</div>
+{% endblock %}
+
+
